@@ -1,0 +1,99 @@
+/* 기본 라이트 모드 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+    background-color: #f8f9fa; /* 라이트 모드 배경색 */
+    color: #212529; /* 라이트 모드 텍스트 색상 */
+    transition: background-color 0.3s, color 0.3s; /* 다크 모드 전환 애니메이션 */
+}
+
+/* 다크 모드 스타일 */
+body.dark-mode {
+    background-color: #212529; /* 다크 모드 배경색 */
+    color: #f8f9fa; /* 다크 모드 텍스트 색상 */
+}
+
+/* 다크 모드 - 테이블 전체 스타일 */
+body.dark-mode .table {
+    background-color: #343a40; /* 테이블 배경색 */
+    color: #f8f9fa; /* 테이블 텍스트 색상 */
+    border-color: #6c757d; /* 테이블 테두리 색상 */
+}
+
+/* 다크 모드 - 테이블 헤더 스타일 */
+body.dark-mode .table th {
+    background-color: #495057; /* 헤더 배경색 */
+    color: #f8f9fa; /* 헤더 텍스트 색상 */
+    border-color: #6c757d; /* 헤더 테두리 색상 */
+}
+
+/* 다크 모드 - 테이블 데이터 셀 스타일 */
+body.dark-mode .table td {
+    background-color: #343a40; /* 데이터 셀 배경색 */
+    color: #f8f9fa; /* 데이터 셀 텍스트 색상 */
+    border-color: #6c757d; /* 데이터 셀 테두리 색상 */
+}
+
+/* 다크 모드 - 입력창 스타일 */
+body.dark-mode input,
+body.dark-mode select {
+    background-color: #495057; /* 입력창 배경색 */
+    color: #f8f9fa; /* 입력창 텍스트 색상 */
+    border: 1px solid #6c757d; /* 입력창 테두리 색상 */
+}
+
+/* 다크 모드 - 버튼 스타일 */
+body.dark-mode .btn {
+    background-color: #6c757d; /* 버튼 배경색 */
+    color: #f8f9fa; /* 버튼 텍스트 색상 */
+    border: 1px solid #495057; /* 버튼 테두리 색상 */
+}
+
+/* 다크 모드 - 버튼 호버 스타일 */
+body.dark-mode .btn:hover {
+    background-color: #495057; /* 호버 시 버튼 배경색 */
+    color: #f8f9fa; /* 호버 시 버튼 텍스트 색상 */
+}
+
+/* 다크 모드 - 페이지 네이션 스타일 */
+body.dark-mode .pagination {
+    background-color: transparent; /* 페이지 네이션 배경을 투명하게 설정 */
+    border: none; /* 페이지 네이션 테두리 제거 */
+}
+
+/* 다크 모드 - 페이지 링크 스타일 */
+body.dark-mode .page-link {
+    color: #f8f9fa; /* 페이지 링크 텍스트 색상 */
+    background-color: #495057; /* 페이지 링크 배경색 */
+    border: 1px solid #6c757d; /* 페이지 링크 테두리 색상 */
+}
+
+/* 다크 모드 - 페이지 링크 호버 스타일 */
+body.dark-mode .page-link:hover {
+    background-color: #6c757d; /* 호버 시 배경색 */
+    color: #f8f9fa; /* 호버 시 텍스트 색상 */
+}
+
+/* 현재 시간 스타일 */
+#currentTime {
+    font-size: 16px; /* 글씨 크기 설정 */
+    font-weight: bold; /* 글씨 두께 설정 */
+    color: #212529 !important; /* 기본 모드에서 검정색 */
+    transition: color 0.3s; /* 색상 전환 애니메이션 */
+}
+
+/* 다크 모드 - 현재 시간 스타일 */
+body.dark-mode #currentTime {
+    color: #f8f9fa !important; /* 다크 모드에서 흰색 */
+}
+
+/* 다크 모드 - 입력 필드 placeholder 스타일 */
+body.dark-mode input::placeholder {
+    color: #f8f9fa; /* 다크 모드에서 placeholder 텍스트 색상 */
+}
+
+/* 라이트 모드 - 버튼 스타일 */
+body .btn {
+    background-color: #f8f9fa; /* 버튼 배경색 */
+    color: #171717; /* 버튼 텍스트 색상 */
+    border-color: #6c757d; /* 버튼 테두리 색상 */
+}
