@@ -47,7 +47,7 @@ main.html
           5. 이메일은 이메일 규정에 맞게 예:seonhong@exam.com
 
 
-![adminproject](https://github.com/user-attachments/assets/16748ce1-acc9-40fb-a2ab-7e05403bb3a4)
+![adminproject](https://github.com/user-attachments/assets/d9480824-2278-46ae-bc71-d4d4cdf90701)
 ---
 
 ## 🔧 기술 스택  
