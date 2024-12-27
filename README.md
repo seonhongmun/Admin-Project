@@ -41,7 +41,7 @@ main.html
 3. 검색기능을 사용할수 있습니다.
 4. 회원가입을 통해 회원을 모집할수 있습니다.
 
-![adminproject](https://github.com/user-attachments/assets/b1cdf829-03ef-41f2-ac01-41c392d5c61b)
+![adminproject](https://github.com/user-attachments/assets/50166eca-b0a1-4631-8253-bf4fde2fc9b6)
 ---
 
 ## 🔧 기술 스택  
