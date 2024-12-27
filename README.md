@@ -28,7 +28,7 @@
 ### 설치  
 1. 이 저장소를 클론합니다:  
    ```bash
-   git clone https://github.com/seonhongmun/adminproject
+   git clone https://github.com/seonhongmun/Admin-Project
    ```
 
 ### 웹페이지 실행  
