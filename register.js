@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return; // 폼 제출 중단
         }
 
-        const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,30}$/; // 비밀번호 정규식
+        const passwordRegex = /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,30}$/; // 비밀번호 정규식
         if (!passwordRegex.test(password)) { // 비밀번호가 조건을 만족하지 않을 경우
             alert("비밀번호는 영문, 숫자, 특수문자를 포함한 8자 이상 30자 미만이어야 합니다."); // 경고 메시지 출력
             return; // 폼 제출 중단
